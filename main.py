@@ -72,7 +72,8 @@ source_path = 'B:\\'
 destRoot = 'D:\Python\Destination'
 destination_path = destRoot + '\\' + sourceName
 counter = copyTree(source_path, destination_path)
+saveToCsv(source_path, destRoot, sourceName)
 if type(counter) is tuple:
     print(f'Skopiowano {counter[1]} z {counter[0]} plików.')
 
-saveToCsv(source_path, destRoot, sourceName)
+
