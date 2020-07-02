@@ -75,4 +75,3 @@ counter = copyTree(source_path, destination_path)
 saveToCsv(source_path, destRoot, sourceName)
 if type(counter) is tuple:
     print(f'Skopiowano {counter[1]} z {counter[0]} plików.')
-
